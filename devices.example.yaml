@@ -1,0 +1,17 @@
+R1:
+  device_type: cisco_ios
+  host: 192.168.1.10
+  username: admin
+  password: YOUR_PASSWORD
+  role: router
+  site: Cairo
+  environment: lab
+
+R2:
+  device_type: cisco_ios
+  host: 192.168.1.11
+  username: admin
+  password: YOUR_PASSWORD
+  role: router
+  site: Cairo
+  environment: lab
