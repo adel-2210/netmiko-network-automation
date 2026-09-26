@@ -68,6 +68,9 @@ python network_automation.py
 
 The project was tested with Cisco routers running in EVE-NG and accessed from the Python host using SSH.
 
+![EVE-NG Lab Topology](docs/topology.png)
+
+
 ## Note
 
 This is a learning project focused on practicing network automation with Python and Netmiko. The automation logic is intentionally simple and can be extended with more network tasks and devices.
