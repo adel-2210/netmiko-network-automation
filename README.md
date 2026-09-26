@@ -1,4 +1,3 @@
-
 # Netmiko Network Automation
 
 A Python project for automating common network tasks using Netmiko.
@@ -38,11 +37,16 @@ Inventory → Connect → Collect → Analyze → Configure → Verify → Backu
 
 ```text
 network_automation.py
+network_automation_general.py
 devices.example.yaml
 requirements.txt
 README.md
 .gitignore
 ```
+
+`network_automation.py` is the version used in the EVE-NG lab.
+
+`network_automation_general.py` follows the same workflow but is not tied to the lab's site or device-role filtering.
 
 `devices.yaml`, backups, logs, and generated reports are kept out of the repository.
 
@@ -69,7 +73,6 @@ python network_automation.py
 The project was tested with Cisco routers running in EVE-NG and accessed from the Python host using SSH.
 
 ![EVE-NG Lab Topology](docs/topology.png)
-
 
 ## Note
 
