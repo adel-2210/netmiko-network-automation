@@ -1,4 +1,15 @@
-backups/
+# Runtime files
 *.log
-.env
+automation_report.xlsx
+
+# Backups
+backups/
 *_backup.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+devices.yaml
